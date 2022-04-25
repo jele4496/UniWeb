@@ -1,0 +1,75 @@
+HTML
+
+제목 <h1~6>----</h1~6>
+강조 <strong>----</stong>
+
+링크 <a href - "url">----</a>, 새로운 탭으로 열기 <a href="url" target = "_blank">---</a>
+링크에 마우스를 올렸을때 정보를 주는거 <a href="url" target = "_blank" title = "정보" >---</a>
+
+리스트 <li>---</li>
+unordered list <ul>---</ul>, ordered list <ol>---</ol>
+
+페이지 이름<title>---</title>
+
+글씨가 깨지면 <meta charset = utf-8>
+문단 만들기 <p>---</p>
+줄 바꿈 <br> -> void element = 닫지않아도됨
+
+이미지 <img src = "이미지 이름">, 이미지 크기 조정 <img src = "이미지 이름" width = "--", height ="--">
+<img src="이미지" alt = "---"> *alt는 이미지가 깨졌을때 어떤 이미지인지 알게 도와줌
+
+table data <td>---</td> 칸 묶기
+table row <tr>--</tr> 행으로 묶기
+표 <table> 테이블 묶기, 테두리 만들기 <table border = "--">
+표에서 제목& 진하게표시<th>---</th>
+표에서 수직 병합 <td colspan = "--">  from 위쪽                      * -- = 몇칸을 합칠지
+     "    수평 병합 <td rowspan = "--"> from 왼쪽
+
+<form action= "---"> </form> 사용자가 입력한 것을 서버(---)로 전송
+<input type = "---" name = "---"value = "---"> 
+value="---" 사이트 들어가면 이미 적혀있음
+name="---" 서버로 이런 이름으로 전송
+<input type = "password">로 하면 사용자가 입력하는게 ****로 표시 
+텍스트를 여러줄 입력받을때 <textarea>----</textarea> ----는 기본값으로 나타남
+선택지로 만들기<option>---</option>
+선택할 수 있게 만들기 <select>---</select> -> dropdownlist
+다중선택 <select name = "--" multiple>
+라디오 버튼 만들기 <input type ="radio">
+" 하나만 선택되게 하려면 <input type = "radio" name="---">에서 name을 똑같이 하면 됨.
+체크박스 <input type = "checkbox" name="---">
+기몬적으로 선택되게하기 <input type="--" name = "--" value = "--" checked>
+어떤 텍스트에 의미를 알려주기위한것 <label>---</label>
+label을 다른것과 연결시켜주는것 <label for = "id_txt">, <input id = "id_txt"> or 레이블 태그로 감싸면됨
+
+url에 숨기며 정보를 전달 -> 로그인 할때 안전하게(비밀번호 노출 x)
+	<form action ="url" method = "post">
+url을 통해서 정보를 전달
+	<form action = "url" method = "get">
+파일 업로드
+	<form action ="url" method ="post" enctype = "multipart/form=data">
+	<input type = "file" name = "---">
+	<input type = "submit">
+<meta>테그
+	<meta charset = "utf-8">
+	<meta name = "description" content = "---">
+	<meta name = "keywords" content = "---">
+	<meta name = "author" content = "---">
+	<meta http-equiv = "refresh" content = "time">
+
+semantic
+
+
+기본 구조
+<!DOCTYPE html> 
+<html>
+<head>
+   <title>---</title>
+     <body>
+	<h1>---</h1>
+     </body>
+
+</head>
+</html>
+
+
+
